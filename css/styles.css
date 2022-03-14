@@ -415,7 +415,10 @@ button a {
 .israel-img3,
 .USA-img1,
 .USA-img2,
-.USA-img3 {
+.USA-img3,
+.australia-img1,
+.australia-img2,
+.australia-img3 {
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -444,6 +447,18 @@ button a {
 
 .USA-img3 {
   background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+}
+
+.australia-img1 {
+  background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
+}
+
+.australia-img2 {
+  background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
+}
+
+.australia-img3 {
+  background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
 }
 
 .about {
