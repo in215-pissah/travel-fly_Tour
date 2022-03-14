@@ -199,6 +199,11 @@ button {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 15px;
   font-weight: 800;
+  margin: 0 auto;
+}
+button a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .readMore {
@@ -211,9 +216,11 @@ button {
   width: 133px;
   border-radius: 30px;
 }
-.learnMore a {
-  color: #ffffff;
-  text-decoration: none;
+
+.bookNow {
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
 }
 
 .submitBox {

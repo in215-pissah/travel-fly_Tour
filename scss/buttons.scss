@@ -5,6 +5,11 @@ button {
   font-family: $GillSans;
   font-size: 15px;
   font-weight: 800;
+  margin: 0 auto;
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
 }
 .readMore {
   height: 40px;
@@ -14,12 +19,13 @@ button {
   height: 40px;
   width: 133px;
   border-radius: 30px;
-  a {
-    color: #ffffff;
-    text-decoration: none;
-  }
 }
 
+.bookNow {
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+}
 .submitBox {
   color: #ffffff;
   background-color: #79addc;
