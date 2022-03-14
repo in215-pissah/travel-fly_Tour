@@ -1,0 +1,9 @@
+.tourHeader {
+  max-width: $content-width;
+  height: 200px;
+  margin-bottom: 48px;
+  background-image: $image-color, url(../images/tour/tours-header.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
