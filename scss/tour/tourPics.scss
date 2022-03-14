@@ -1,0 +1,97 @@
+.tourPics1,
+.tourPics2,
+.tourPics3,
+.tourPics4,
+.tourPics5,
+.tourPics6,
+.tourPics7,
+.tourPics8,
+.tourPics9 {
+  background-size: cover;
+  background-position: center;
+  width: $tourPicsWidth;
+  height: $tourPicsHeight;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 37px;
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 30px;
+    margin-bottom: 37px;
+  }
+}
+
+.tourPics1 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/tour/tour-01.jpg);
+}
+.tourPics2 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/tour/tour-02.jpg);
+}
+.tourPics3 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/tour/tour-03.jpg);
+}
+.tourPics4 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/tour/tour-04.jpg);
+}
+.tourPics5 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/tour/tour-05.jpg);
+}
+.tourPics6 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/tour/tour-06.jpg);
+}
+.tourPics7 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/tour/tour-07.jpg);
+}
+.tourPics8 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/tour/tour-08.jpg);
+}
+.tourPics9 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/tour/tour-09.jpg);
+}

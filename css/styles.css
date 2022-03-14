@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@font-face {
+  font-family: ProximaNovaThin;
+  src: url(../css/fonts/Proxima_Nova_Extra_Condensed_Thin.otf);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: ProximaNova;
+}
+
+p,
+a,
+footer {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+#app {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+nav {
+  max-width: 980px;
+  margin: 0 auto;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 20.5px;
+}
+nav .links .logo {
+  width: 136px;
+  height: 45px;
+  background-color: coral;
+}
+nav .links a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #000000;
+  margin-right: 21px;
+}
+
+.nav-hr-white {
+  margin: 0 auto;
+  margin-bottom: 69.5px;
+  max-width: 980px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.nav-hr-black {
+  margin: 0 auto;
+  margin-bottom: 69.5px;
+  max-width: 980px;
+  background-color: #000000;
+  border: 1px solid #000000;
+}
+
+footer {
+  background-color: #79addc;
+  height: 100px;
+  color: #ffffff;
+}
+footer .footer-content {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 5px;
+}
+
+.homeBanner {
+  height: 500px;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+}
+.homeBanner a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.homeBanner h1 {
+  font-size: 60px;
+  margin-bottom: 37px;
+}
+.homeBanner .heroText {
+  font-size: 20px;
+  margin-bottom: 48px;
+}
+
+.homePictures {
+  margin: 0 auto;
+  top: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+form {
+  margin: 40px 231px;
+}
+form h1 {
+  font-size: 60px;
+}
+form input,
+form label {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+form input {
+  background-color: #ffffff;
+  border: 2px solid #79addc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+form .box1 {
+  height: 58px;
+  width: 45%;
+  margin-right: 21px;
+}
+form .box2 {
+  height: 58px;
+  width: 55%;
+}
+form .box3 {
+  height: 58px;
+  width: 88%;
+  margin-left: 24px;
+}
+form .box4 {
+  width: 103px;
+  height: 58px;
+}
+form .box5 {
+  width: 100%;
+  height: 192px;
+}
+form .group1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+form .acrBoxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+form .acrBoxes label {
+  margin-right: 30px;
+}
+
+button {
+  color: #ffffff;
+  background-color: #79addc;
+  border-style: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.readMore {
+  height: 40px;
+  width: 122px;
+}
+
+.learnMore {
+  height: 40px;
+  width: 133px;
+  border-radius: 30px;
+}
+
+.submitBox {
+  color: #ffffff;
+  background-color: #79addc;
+  border-style: none;
+  border-radius: 30px;
+  width: 100%;
+  height: 60.59px;
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.tourPics1,
+.tourPics2,
+.tourPics3,
+.tourPics4,
+.tourPics5,
+.tourPics6,
+.tourPics7,
+.tourPics8,
+.tourPics9 {
+  background-size: cover;
+  background-position: center;
+  width: 236px;
+  height: 304px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 37px;
+}
+.tourPics1 h1,
+.tourPics2 h1,
+.tourPics3 h1,
+.tourPics4 h1,
+.tourPics5 h1,
+.tourPics6 h1,
+.tourPics7 h1,
+.tourPics8 h1,
+.tourPics9 h1 {
+  font-size: 60px;
+}
+.tourPics1 h2,
+.tourPics2 h2,
+.tourPics3 h2,
+.tourPics4 h2,
+.tourPics5 h2,
+.tourPics6 h2,
+.tourPics7 h2,
+.tourPics8 h2,
+.tourPics9 h2 {
+  font-size: 30px;
+  margin-bottom: 37px;
+}
+
+.tourPics1 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+}
+
+.tourPics2 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+}
+
+.tourPics3 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+}
+
+.tourPics4 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+}
+
+.tourPics5 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+}
+
+.tourPics6 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+}
+
+.tourPics7 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+}
+
+.tourPics8 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+}
+
+.tourPics9 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+}
+
+.about {
+  margin-top: 111px;
+  margin-bottom: 180px;
+}
+.about .about-header h1 {
+  font-size: 60px;
+}
+.about .about-header hr {
+  background-color: #000000;
+  border: 1px solid #000000;
+  width: 171px;
+}
+.about .about-client-quotes {
+  margin-top: 107px;
+}
+.about .about-client-quotes .client-quote-title {
+  font-size: 30px;
+}
+.about .about-client-quotes hr {
+  background-color: #000000;
+  border: 1px solid #000000;
+  width: 255px;
+}
+.about .about-client-quotes .client-box {
+  max-width: 722px;
+  height: 150px;
+  margin-top: 37px;
+  margin-bottom: 37px;
+  display: flex;
+  position: relative;
+}
+.about .about-client-quotes .client-box .client-img {
+  width: 260px;
+  height: 150px;
+  margin-right: 21px;
+}
+.about .about-client-quotes .client-box .client-img img {
+  width: 100%;
+  height: 100%;
+}
+.about .about-client-quotes .client-box .client-text {
+  width: 385px;
+  height: 102px;
+  margin-bottom: 30px;
+}
+.about .about-client-quotes .client-box .client-text p {
+  font-size: 16px;
+}
+.about .about-client-quotes .client-box .client-name {
+  color: #79addc;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
