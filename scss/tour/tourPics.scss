@@ -51,7 +51,10 @@
 
 .israel-img1,
 .israel-img2,
-.israel-img3 {
+.israel-img3,
+.USA-img1,
+.USA-img2,
+.USA-img3 {
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -66,4 +69,14 @@
 }
 .israel-img3 {
   background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+}
+
+.USA-img1 {
+  background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+}
+.USA-img2 {
+  background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+}
+.USA-img3 {
+  background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
 }
