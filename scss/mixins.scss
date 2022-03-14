@@ -8,3 +8,9 @@
   background-color: #000000;
   border: 1px solid #000000;
 }
+
+@mixin div-images {
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}

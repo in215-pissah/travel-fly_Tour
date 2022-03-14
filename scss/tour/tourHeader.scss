@@ -3,7 +3,20 @@
   height: 200px;
   margin-bottom: 48px;
   background-image: $image-color, url(../images/tour/tours-header.jpg);
-  background-size: cover;
-  background-position: center;
-  color: #ffffff;
+  @include div-images();
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-size: 70px;
+    letter-spacing: 5px;
+  }
+}
+
+.tourImages {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 55px;
 }

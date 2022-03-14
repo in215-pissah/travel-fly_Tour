@@ -7,11 +7,9 @@
 .tourPics7,
 .tourPics8,
 .tourPics9 {
-  background-size: cover;
-  background-position: center;
+  @include div-images();
   width: $tourPicsWidth;
   height: $tourPicsHeight;
-  color: #ffffff;
   text-align: center;
   padding-top: 37px;
   h1 {

@@ -211,6 +211,10 @@ button {
   width: 133px;
   border-radius: 30px;
 }
+.learnMore a {
+  color: #ffffff;
+  text-decoration: none;
+}
 
 .submitBox {
   color: #ffffff;
@@ -233,6 +237,21 @@ button {
   background-size: cover;
   background-position: center;
   color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tourHeader h1 {
+  font-size: 70px;
+  letter-spacing: 5px;
+}
+
+.tourImages {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 55px;
 }
 
 .tourPics1,
@@ -246,9 +265,9 @@ button {
 .tourPics9 {
   background-size: cover;
   background-position: center;
+  color: #ffffff;
   width: 236px;
   height: 304px;
-  color: #ffffff;
   text-align: center;
   padding-top: 37px;
 }
