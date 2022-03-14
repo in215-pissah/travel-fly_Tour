@@ -8,10 +8,10 @@
 .tourPics8,
 .tourPics9 {
   @include div-images();
-  width: $tourPicsWidth;
-  height: $tourPicsHeight;
+  @include image-sizes();
   text-align: center;
   padding-top: 37px;
+
   h1 {
     font-size: 60px;
   }
@@ -47,4 +47,23 @@
 }
 .tourPics9 {
   background-image: $image-color, url(../images/tour/tour-09.jpg);
+}
+
+.israel-img1,
+.israel-img2,
+.israel-img3 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.israel-img1 {
+  background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+}
+.israel-img2 {
+  background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+}
+.israel-img3 {
+  background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
 }

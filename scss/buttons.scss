@@ -5,7 +5,7 @@ button {
   font-family: $GillSans;
   font-size: 15px;
   font-weight: 800;
-  margin: 0 auto;
+  // margin: 0 auto;
   a {
     color: #ffffff;
     text-decoration: none;
@@ -25,7 +25,9 @@ button {
   height: 40px;
   width: 133px;
   border-radius: 20px;
+  margin-bottom: 100px;
 }
+
 .submitBox {
   color: #ffffff;
   background-color: #79addc;
