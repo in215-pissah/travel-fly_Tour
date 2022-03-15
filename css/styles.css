@@ -138,8 +138,24 @@ footer .footer-content {
   position: relative;
 }
 
+@media screen and (max-width: 612px) {
+  .homePictures {
+    flex-direction: column;
+  }
+  .homePictures .tourPics1,
+.homePictures .tourPics2,
+.homePictures .tourPics3,
+.homePictures .tourPics4,
+.homePictures .tourPics5,
+.homePictures .tourPics6,
+.homePictures .tourPics7,
+.homePictures .tourPics8,
+.homePictures .tourPics9 {
+    margin-bottom: 55px;
+  }
+}
 form {
-  margin: 40px 231px;
+  margin: 40px;
 }
 form h1 {
   font-size: 60px;
@@ -261,6 +277,22 @@ button a {
   margin-bottom: 55px;
 }
 
+@media screen and (max-width: 608px) {
+  .tourImages {
+    flex-direction: column;
+  }
+  .tourImages .tourPics1,
+.tourImages .tourPics2,
+.tourImages .tourPics3,
+.tourImages .tourPics4,
+.tourImages .tourPics5,
+.tourImages .tourPics6,
+.tourImages .tourPics7,
+.tourImages .tourPics8,
+.tourImages .tourPics9 {
+    margin-bottom: 55px;
+  }
+}
 .tour-Package-Hero {
   max-width: 980px;
   height: 413px;

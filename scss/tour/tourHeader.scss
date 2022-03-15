@@ -20,6 +20,22 @@
   justify-content: space-around;
   margin-bottom: 55px;
 }
+@media screen and (max-width: 608px) {
+  .tourImages {
+    flex-direction: column;
+    .tourPics1,
+    .tourPics2,
+    .tourPics3,
+    .tourPics4,
+    .tourPics5,
+    .tourPics6,
+    .tourPics7,
+    .tourPics8,
+    .tourPics9 {
+      margin-bottom: 55px;
+    }
+  }
+}
 
 .tour-Package-Hero {
   max-width: $content-width;
