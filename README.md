@@ -1,6 +1,6 @@
 # About Page for Travel-Fly
 
-### Web 4 Link
+### GitHub Page Link
 
 https://in215-pissah.github.io/travel-fly_Tour/
 
